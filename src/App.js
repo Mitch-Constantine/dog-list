@@ -77,10 +77,13 @@ export default class App extends React.Component {
 					</div>
 
 					<div className="mt-5 row">
-						<p>Click on dog name to edit</p>
+						<p>Click on the dog name to edit</p>
 					</div>
 					<div className="row">
 						<p>List of dogs is read from a static JSON file via AJAX. Save is just an alert as there is no backend code.</p>
+					</div>
+					<div className="row">
+						<p>Validation: name and breed are mandatory, alias is not. Implemented using Formik and Yup.</p>
 					</div>
 					<div className="row">
 						<p>This is the Heroes app from angular, adapted for react</p>
